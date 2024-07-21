@@ -5,7 +5,8 @@
   - 같은 타입의 데이터들은 **연속된 메모리 공간**을 사용하며 이곳에 데이터들을 할당 받는다
     ex) Example_Array = [4, 2, 5, 8, 4, 11, 15]
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/58046598-c759-450f-8746-24946d52160a/Untitled.png)
+![Untitled](https://github.com/user-attachments/assets/d94c71d5-7108-464c-8411-70fe82898f37)
+
 
 - 데이터들 각각의 이름은 없지만 인덱스로 접근 가능
   ex) Example_Array [0] ⇒ 4
@@ -27,7 +28,9 @@
 
 - 시각화를 하게 되면, 아래의 그림과 같이 메모리에 순차적으로 저장이 된다
 - 2차원처럼 보이지만, 실제로는 1차원으로 표현이 된다
-  ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/3c7b195b-b95c-414f-861f-9de70c69bd1f/Untitled.png)
+
+![Untitled (1)](https://github.com/user-attachments/assets/ba281f86-329d-4ec9-a940-393d7f6f2755)
+
 
 ### ❓객체를 메모리에 담게 되면 어떻게 저장될까?
 
@@ -39,7 +42,8 @@
 - 객체들을 배열에 저장할 때, **연속된 메모리 공간에 저장** ⇒ 객체들의 reference들이 저장된다는 의미이다
 - 실제로 각각의 객체들은 연속된 공간이 아닌 아래의 그림처럼 띄엄 띄엄 저장 된다
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/1dfa1159-3400-4d45-b726-01a4cdef35f2/Untitled.png)
+![Untitled (2)](https://github.com/user-attachments/assets/e5ec8a3f-5c91-4dc2-8183-eaf02d680cf2)
+
 
 ## 1. Dynamic array(동적 배열)
 
@@ -51,7 +55,8 @@
     - javascript가 Web Browser에서 실행된다면 런타임 환경은 Web Browser
 - 메모리 할당을 해제하고 원하는 경우 베열의 크기를 변경할 수 있다
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/5357bd26-f8c0-4dd3-b055-abb0724399a8/Untitled.png)
+![Untitled (3)](https://github.com/user-attachments/assets/887a2388-7d1a-42ba-9ca9-01e765eded26)
+
 
 ## 2. Associative array(연관 배열)
 
@@ -88,7 +93,7 @@ function reverse(str) {
 }
 ```
 
-1. 문자열 분할
+2. 문자열 분할
 
 ```jsx
 function split(str, del) {
@@ -111,7 +116,7 @@ function split(str, del) {
 }
 ```
 
-1. 문자열 결합
+3. 문자열 결합
 
 ```jsx
 let myName = ["FirstName", "LastName"];
@@ -132,7 +137,7 @@ function join(str, sep) {
 }
 ```
 
-1. 문자열 부분 검색
+4. 문자열 부분 검색
 
 ```jsx
 function partSearch(str, search) {
@@ -153,7 +158,7 @@ function partSearch(str, search) {
 }
 ```
 
-1. 문자열 회문 검사
+5. 문자열 회문 검사
 
 ```jsx
 function palindrome(str) {
@@ -174,17 +179,19 @@ function palindrome(str) {
 
 - CPU 내부나 바로 옆에 존재하는 작은 메모리칩(하드웨어)이다
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/d2341f22-437c-478c-b0f2-0e216d592ad3/Untitled.png)
+![Untitled (4)](https://github.com/user-attachments/assets/d29648b7-a9a8-49c2-b065-78e3f9b03536)
+
 
 - CPU 의 성능이 발달하면서 CPU코어와 메인 메모리간의 속도 차이가 현저히 증가하여, 이 둘 사이의 데이터 접근 시간을 줄이기 위해 캐시 메모리 개념을 도입했다
 
-1. CPU 캐시 메모리의 종류
+2. CPU 캐시 메모리의 종류
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/edaf2330-e354-421c-bdd4-0d081c840985/Untitled.png)
+![Untitled (5)](https://github.com/user-attachments/assets/ebd6fc13-d6b0-4aab-810e-35ff428dfa1e)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/4faa2f57-702c-467d-9a77-bb57bdfa26c6/Untitled.png)
+![Untitled (6)](https://github.com/user-attachments/assets/cbe8fadb-6f92-46f5-a8c6-b7d3adb0c919)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/5b5dede4-425a-454e-b948-57651d148cda/Untitled.png)
+![Untitled (7)](https://github.com/user-attachments/assets/202976f5-6932-4631-aec3-a600fd651ba6)
+
 
 - CPU Cache Memory는 캐시의 크기와 속도를 기준으로 L1, L2, L3로 나뉜다
   - L1 cahce
@@ -204,20 +211,18 @@ function palindrome(str) {
     - 렘보다 빠르다
     - 멀티코어 환경에서 각각의 코어는 독립적인 L1, L2 메모리를 소유함과 동시에 L3를 공유한다
 
-1. CPU 캐시 동작 과정
+3. CPU 캐시 동작 과정
    1. CPU가 메모리에 데이터를 요청
    2. CPU가 메인 메모리에 접근하기 전, 필요로 하는 데이터가 캐시에 존재하는지 확인(check)
    3. 있으면(chche hit) 캐시에 접근하여 데이터를 가져옴
    4. 없으면(chche miss) 메인 메모리에 접근해서 데이터를 가져옴
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/f0516eb8-8f61-444e-bda1-ae1ae16fc3da/Untitled.png)
 
 ### 2. stack & heap ⇒ 메모리 구조?
 
 - 메모리 구조 : 프로그램이 실행되기 위해 프로그램이 메모리에 로드되어야 하며, 사용되는 변수들을 저장할 메모리가 필요하다
   따라서 컴퓨터의 운영체재는 프로그램의 실행을 위해 다양한 메모리 공간을 제공하는데 , 대표적인 메모리 공간은 다음과 같이 4가지가 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/e3f9a092-5872-4a33-be88-07421f233f59/Untitled.png)
+![Untitled (8)](https://github.com/user-attachments/assets/7fbae95f-1ded-42a9-b962-d722f639a403)
 
 - 코드 영역 : 실행할 프로그램의 코드가 저장되는 영역으로 텍스트(code) 영역이라고도 부른다
   CPU는 코드 영역에 저장된 명령어를 하나씩 가져가서 처리하게 된다
