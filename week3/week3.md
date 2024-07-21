@@ -15,7 +15,8 @@
 
 ### 2-1. 단일 연결 리스트
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/48d94206-986b-41c8-bbe3-44e5fd08d188/Untitled.png)
+![image](https://github.com/user-attachments/assets/6ab22872-9670-4ef8-9fae-26f5ff38ab27)
+
 
 - data 에는 값, next에는 pointer나 reference를 저장하고 있다
 - next는 다음 노드를 가리키는 pointer나 reference를 가지고 있다
@@ -25,14 +26,16 @@
 
 ### 2-2. 이중 연결 리스트
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/46672675-91c3-4e4b-8e66-bcc1ad9bdde2/Untitled.png)
+![image](https://github.com/user-attachments/assets/3d459837-2c98-4f1e-9759-7c4457a92914)
+
 
 - 양방향 통행
 - 양방향 이므로 어떤 방향이든 빨리 접근할 수 있다
 
 ### 2-3. 원형 연결 리스트
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/be4dcee4-928c-463d-8954-24636238b057/Untitled.png)
+![image](https://github.com/user-attachments/assets/30da5e13-a8ec-41dc-bfb5-3db366f75bec)
+
 
 - tail이 가리키고 있는 마지막 노드가 가장 앞에 있는 head를 가리키는 구조
 - 이때, head는 따로 관리하지 않고 tail만 관리한다(head가 없어도 관리가 가능하기 때문)
@@ -40,13 +43,14 @@
 
 ### 2-4. 이중 원형 연결 리스트
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/30c60f24-4013-47a9-9d25-b8abf29cb7c4/Untitled.png)
+![image](https://github.com/user-attachments/assets/0ce01cf8-7f80-44b9-ab8e-201283d9d90e)
 
 - 이중 + 원형 연결 리스트
 - head와 tail이 서로 연결 + 노드들이 앞뒤로 연결되어 있는 구조
 
 ## Array List VS Linked List
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/c443d179-2422-4eef-a00d-14579bacdc83/96848971-63a3-4013-9311-06469909b2af/Untitled.png)
+![image](https://github.com/user-attachments/assets/844a6e15-cea1-4b90-8185-36e7d298fb82)
+
 
 Java는 Array List를 쓰는 추세(?)이다
